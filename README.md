@@ -51,6 +51,13 @@ hero {
     <p>見学・体験は大歓迎！お気軽にInstagramのDMまで📩</p>
   </section>
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
   <footer>
     <p>&copy; 2025 一橋大学競技ダンス部</p>
   </footer>
