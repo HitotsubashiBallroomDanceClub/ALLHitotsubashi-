@@ -23,7 +23,8 @@
   <!-- トップ（Heroセクション） -->
   <section class="hero">
     <div class="hero-text">
-      <h1>ようこそ！ALL一橋大学競技ダンス部へ</h1>
+
+    <h1>ようこそ！ALL一橋大学競技ダンス部へ color="#333"</h1>
       <p>初心者から日本１へ</p>
     </div>
   </section>
