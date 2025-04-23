@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+body {
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-links li a:hover {
+  color: #f0a500;
+}
+.hero {
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  ...
+}
+.section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
