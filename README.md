@@ -50,7 +50,7 @@ hero {
     <h2>お問い合わせ</h2>
     <p>見学・体験は大歓迎！お気軽にInstagramのDMまで📩</p>
   </section>
-
+open"style.css"
 
 </head>
 <body>
