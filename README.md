@@ -10,7 +10,7 @@ ALL一橋競技ダンス部のHP
 </head>
 <body>
 
-  <!-- ナビゲーションバー -->
+  <!-- ナビゲーションバー --!>
   <header>
     <nav class="navbar">
       <div class="logo">ALL一橋大学競技ダンス部</div>
@@ -67,7 +67,7 @@ body {
   color: #333;
 }
 
-.navbar {
+navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,29 +78,29 @@ body {
   z-index: 10;
 }
 
-.navbar .logo {
+navbar .logo {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.nav-links {
+nav-links {
   list-style: none;
   display: flex;
   gap: 1.5rem;
 }
 
-.nav-links li a {
+nav-links li a {
   color: white;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.nav-links li a:hover {
+nav-links li a:hover {
   color: #f0a500;
 }
 
-.hero {
+hero {
   background-image: url("dance_hero.jpg"); /* ←ここに写真を入れる */
   background-size: cover;
   background-position: center;
