@@ -29,7 +29,9 @@ ALL一橋競技ダンス部のHP
       <p>情熱と仲間がここにある。</p>
     </div>
   </section>
-
+.hero {
+  background-image: url("images/dance_hero.jpg");
+}
   <!-- 活動紹介 -->
   <section id="about" class="section">
     <h2>活動紹介</h2>
