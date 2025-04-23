@@ -104,7 +104,85 @@ body {
   max-width: 800px;
   margin: auto;
 }
+<head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+  }
 
+  .border-with-text {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 20px solid #ff6347; /* 枠線の太さと色 */
+    box-sizing: border-box;
+  }
+
+  .border-with-text::before , .border-with-text::after {
+    content: "test test test test test test test test test test";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff; /* 文字の色（必要に応じて変更） */
+    font-family: Arial, sans-serif;
+  }
+
+  /* 上の枠に文字を配置 */
+  .border-with-text::before {
+    top: -20px; /* 枠線の上に配置 */
+    left: 0;
+  }
+
+  /* 下の枠に文字を配置 */
+  .border-with-text::after {
+    bottom: -20px; /* 枠線の下に配置 */
+    left: 0;
+  }
+
+  /* 左の枠に文字を配置 */
+  .left-text {
+    position: absolute;
+    writing-mode: vertical-lr; /* 縦書きにする */
+    text-align: center;
+    left: -20px; /* 枠線の外側に配置 */
+    top: 0;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    transform: rotate(180deg); /* 内側に向かって回転 */
+    transform-origin: center center; /* 回転の基準を中心に設定 */
+  }
+
+  /* 右の枠に文字を配置 */
+  .right-text {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-align: center;
+    right: -20px; /* 枠線の外側に配置 */
+    top: 0;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+</style>
+</head>
+<body>
+  <div class="border-with-text">
+  <!-- 左右の縁用 -->
+    <div class="left-text">test test test test test test</div>
+    <div class="right-text">test test test test test test</div>
+  </div>
+</body>
 </head>
 <body>
 
