@@ -187,6 +187,7 @@ footer {
       <li>1年生：明るく元気な新メンバーが続々加入中！</li>
     </ul>
   </section>
+hero {background-image: url("dance_hero.jpg") background-size: cover;background-position: center;height: 100vh;display: flex;align-items: center;justify-content: center;color: white;text-shadow: 1px 1px 3px rgba(0, 0, 0,0.8);
 
   <!-- お問い合わせ -->
   <section id="contact" class="section">
