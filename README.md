@@ -56,6 +56,11 @@ open"style.css"
   <!-- お問い合わせ -->
   <section id="contact" class="section">
     <h2>お問い合わせ</h2>
+    body {
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
     <p>見学や体験希望の方は、以下のSNSからお気軽にご連絡ください！</p>
     <ul>
       <li>📷 Instagram: <a href="https://instagram.com/your_instagram_id" target="_blank">@tsuda_dance</a></li>
