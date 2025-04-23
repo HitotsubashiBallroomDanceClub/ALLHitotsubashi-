@@ -57,24 +57,12 @@ hero {
   box-sizing: border-box;
   font-family: 'Helvetica Neue', sans-serif;
 }
-
-  <footer>
-    <p>&copy; 2025 一橋大学競技ダンス部</p>
-  </footer>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
-}
-
 body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
 }
-
-navbar {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,76 +72,27 @@ navbar {
   top: 0;
   z-index: 10;
 }
-
-navbar .logo {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-nav-links li a {
+.nav-links li a {
   color: white;
   text-decoration: none;
   transition: color 0.3s;
 }
-
-nav-links li a:hover {
+.nav-links li a:hover {
   color: #f0a500;
 }
-
-hero {
-  background-image: url("dance_hero.jpg"); /* ←ここに写真を入れる */
+.hero {
+  background-image: url("your-image.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  ...
 }
-
-.hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero-text p {
-  font-size: 1.2rem;
-}
-
 .section {
   padding: 4rem 2rem;
   max-width: 800px;
   margin: auto;
 }
 
-.section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: white;
-  font-size: 0.9rem;
-}
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>津田塾大学ダンス部</title>
-  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
