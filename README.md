@@ -12,7 +12,6 @@
   <!-- ナビゲーションバー --!>
   <header>
     <nav class="navbar">
-      <div class="logo">ALL一橋大学競技ダンス部</div>
       <ul class="nav-links">
         <li><a href="#about">活動紹介</a></li>
         <li><a href="#members">部員紹介</a></li>
