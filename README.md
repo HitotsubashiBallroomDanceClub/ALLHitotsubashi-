@@ -150,18 +150,6 @@ footer {
 </head>
 <body>
 
-  <!-- ナビゲーションバー -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">津田塾大学ダンス部</div>
-      <ul class="nav-links">
-        <li><a href="#about">活動紹介</a></li>
-        <li><a href="#members">部員紹介</a></li>
-        <li><a href="#contact">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <!-- お問い合わせ -->
   <section id="contact" class="section">
     <h2>お問い合わせ</h2>
