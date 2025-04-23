@@ -26,11 +26,11 @@ ALL一橋競技ダンス部のHP
   <section class="hero">
     <div class="hero-text">
       <h1>ようこそ！ALL一橋大学競技ダンス部へ</h1>
-      <p>情熱と仲間がここにある。</p>
+      <p>初心者から日本１へ</p>
     </div>
   </section>
-.hero {
-  background-image: url("images/dance_hero.jpg");
+hero {
+  background-image: url("dance_hero.jpg");
 }
   <!-- 活動紹介 -->
   <section id="about" class="section">
