@@ -61,6 +61,11 @@ open"style.css"
       <li>📷 Instagram: <a href="https://instagram.com/your_instagram_id" target="_blank">@tsuda_dance</a></li>
       <li>✉️ メール: tsuda.dance.club@example.com</li>
     </ul>
+    body {
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
   </section>
 
   <footer>
