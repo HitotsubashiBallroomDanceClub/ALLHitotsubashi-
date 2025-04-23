@@ -162,34 +162,6 @@ footer {
     </nav>
   </header>
 
-  <!-- トップ（Heroセクション） -->
-  <section class="hero">
-    <div class="hero-text">
-      <h1>ようこそ！津田塾大学ダンス部へ</h1>
-      <p>情熱、笑顔、そして仲間がここにある。</p>
-    </div>
-  </section>
-
-  <!-- 活動紹介 -->
-  <section id="about" class="section">
-    <h2>活動紹介</h2>
-    <p>
-      津田塾大学ダンス部は、競技ダンスを中心に週3回練習しています。
-      初心者も経験者も大歓迎！大会・イベント・合宿など、年間を通して充実した活動をしています。
-    </p>
-  </section>
-
-  <!-- 部員紹介 -->
-  <section id="members" class="section">
-    <h2>部員紹介</h2>
-    <p>各学年に個性豊かなメンバーが在籍しています！</p>
-    <ul>
-      <li>2年生：リーダーの〇〇さん（経験者）</li>
-      <li>1年生：明るく元気な新メンバーが続々加入中！</li>
-    </ul>
-  </section>
-hero {background-image: url("dance_hero.jpg") background-size: cover;background-position: center;height: 100vh;display: flex;align-items: center;justify-content: center;color: white;text-shadow: 1px 1px 3px rgba(0, 0, 0,0.8);
-
   <!-- お問い合わせ -->
   <section id="contact" class="section">
     <h2>お問い合わせ</h2>
