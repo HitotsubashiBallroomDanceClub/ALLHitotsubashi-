@@ -51,6 +51,18 @@ hero {
     <p>見学・体験は大歓迎！お気軽にInstagramのDMまで📩</p>
   </section>
 
+<head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+  }
 * {
   margin: 0;
   padding: 0;
