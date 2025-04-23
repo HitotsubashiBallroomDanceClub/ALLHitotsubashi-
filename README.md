@@ -27,7 +27,7 @@
       <p>初心者から日本１へ</p>
     </div>
   </section>
-hero {
+insert {
   background-image: url("dance_hero.jpg");
 }
   <!-- 活動紹介 -->
