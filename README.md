@@ -23,9 +23,9 @@
   <!-- トップ（Heroセクション） -->
   <section class="hero">
     <div class="hero-text">
-<meta charset="UTF-8" / color="#333">
     <h1>ようこそ！ALL一橋大学競技ダンス部へ</h1>
       <p>初心者から日本１へ</p>
+      <meta charset="UTF-8" / color="#696969">
     </div>
   </section>
 hero {
